@@ -16,6 +16,10 @@ The code requires python and OpenCV Library.
 	6. "create_valid_data.py" is used to take user input and compute trajectories of valid/required shots only. It pauses at every event(abrupt change in the direction of the ball).
 
 	7. "classifier.py" is used to classify the data created in step 6.
+
+	8. "calibrate.m" is a matlab script which is used to calibrate the camera. This is an essential step in order to convert 2D coordinates to 3D.
+
+	9. "convert_points.m" is a matlab script which converts 2D points to 3D based on the camera calibration in step 8. 
 	 
 
 

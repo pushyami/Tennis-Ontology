@@ -13,7 +13,9 @@ The code requires python and OpenCV Library.
 
 	5. "tree.py" computes the probability of the next likely event. It computes it dynamically as the annotations are generated.
 
-	6. "create_valid_data.py" is used to take user input and compute trajectories of valid/required shots only. It pauses at every event(abrupt change in the direction of the ball)
+	6. "create_valid_data.py" is used to take user input and compute trajectories of valid/required shots only. It pauses at every event(abrupt change in the direction of the ball).
+
+	7. "classifier.py" is used to classify the data created in step 6.
 	 
 
 

@@ -5,7 +5,7 @@ The code requires python and OpenCV Library.
 
 	1. "annoatate.apk" is the android app to annotate a tennis match in real time based on the grammar of tennis.
 
-	2. "score.py" computes the score based on annotations.
+	2. "score.py" computes the score based on annotations and "play.py" computes the information for statistics.
 
 	3. "detection.py" Ball detection integrated with player detection. Displays bounding box over ball in motion and player in every frame.
 
